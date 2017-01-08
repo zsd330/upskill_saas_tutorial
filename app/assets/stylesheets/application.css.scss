@@ -19,9 +19,27 @@
  @import "font-awesome-sprockets" ;
  @import "font-awesome" ;
  
+.navbar {
+ border: 0;
+}
 
-h1:hover {
- color: white;
+.navbar-default .navbar-toggle .icon-bar {
+ background-color:blue;
+}
+
+.navbar-default .navbar-toggle {
+ background-color:white;
+   &:hover , &:focus {
+   background-color:black;
+  }
+}
+
+.navbar-default .navbar-toggle {
+ border:4px solid white;
+}
+
+.icon-bar {
+ background-color:white;
 }
 
 // Typography Styles
@@ -30,7 +48,7 @@ h1:hover {
  &:hover {
   color:crimson;
   opacity:0.75;
- }
+}
  
 }
 
