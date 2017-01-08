@@ -22,6 +22,17 @@ h1:hover {
  color: white;
 }
 
+// Typography Styles
+.navbar-default .navbar-nav > li > a , .navbar-default .navbar-brand{
+ color:crimson;
+ &:hover {
+  color:crimson;
+  opacity:0.75;
+ }
+ 
+}
+
+// Homepage styles
 .home-callout {
   font-family: 'Orbitron';
   font-size: 90px;
@@ -30,6 +41,7 @@ h1:hover {
   padding-top: 100px;
 }
 
+//background color
 nav , .home-callout  {
     font-family :'Orbitron', 'Sans-Seriff' ;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9de96+0,8ab66b+31,398235+100 */
@@ -42,6 +54,3 @@ nav , .home-callout  {
         
 }
 
-nav:hover {
- color:white;
-}
